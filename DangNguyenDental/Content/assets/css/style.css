@@ -168,11 +168,11 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 5px;
 }
 
-.nav-menu .drop-down:hover > ul {
+/*.nav-menu .drop-down:hover > ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
-}
+}*/
 
 .nav-menu .drop-down li {
   min-width: 180px;
