@@ -7,14 +7,20 @@
     <title>Vesperr Bootstrap Template - Index</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
-
+    <style>
+        body {
+            font-family: 'Dosis', sans-serif !important;
+            font-weight: 300 !important;
+        }
+    </style>
     <!-- Favicons -->
     <link href="~/Content/assets/img/favicon.png" rel="icon">
     <link href="~/Content/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;500;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="~/Content/Site.css" rel="stylesheet" />
     <!-- Vendor CSS Files -->
     <link href="~/Content/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="~/Content/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
@@ -36,6 +42,7 @@
 </head>
 <body>
     @Html.Partial("_Header")
+    @*@Html.Partial("_Navbar")*@
     <main id="main">
         @RenderBody()
     </main>

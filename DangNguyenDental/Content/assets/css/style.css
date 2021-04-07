@@ -8,13 +8,13 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-body {
-  font-family: "Open Sans", sans-serif;
+/*body {
+  font-family: "Dosis", sans-serif;
   color: #444444;
-}
+}*/
 
 a {
-  color: #3498db;
+  color: #0329ca;
 }
 
 a:hover {
@@ -23,7 +23,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Dosis", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #3498db;
+  background: #0329ca;
   color: #fff;
   transition: all 0.4s;
 }
@@ -124,23 +124,24 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
 }
 
-.nav-menu a {
-  display: block;
-  position: relative;
-  color: #555555;
-  padding: 8px 0 12px 25px;
-  transition: 0.3s;
-  font-size: 14px;
-  font-family: "Open Sans", sans-serif;
-}
+    .nav-menu a {
+        display: block;
+        position: relative;
+        color: #555555;
+        padding: 8px 0 12px 25px;
+        transition: 0.3s;
+        font-size: 14px;
+        font-weight: 600;
+        font-family: "Dosis", sans-serif;
+    }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #3498db;
+  color: #0329ca;
   text-decoration: none;
 }
 
 .nav-menu .get-started a {
-  background: #3498db;
+  background: #0329ca;
   color: #fff;
   border-radius: 50px;
   margin: 0 0 0 30px;
@@ -186,7 +187,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #3498db;
+  color: #0329ca;
 }
 
 .nav-menu .drop-down > a:after {
@@ -281,7 +282,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #3498db;
+  color: #0329ca;
   text-decoration: none;
 }
 
@@ -291,7 +292,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav .get-started a {
-  background: #3498db;
+  background: #0329ca;
   color: #fff;
   border-radius: 50px;
   margin: 0 15px;
@@ -379,7 +380,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started {
-  font-family: "Raleway", sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -387,12 +388,12 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 30px;
   border-radius: 50px;
   transition: 0.5s;
-  color: #3498db;
-  border: 2px solid #3498db;
+  color: #0329ca;
+  border: 2px solid #0329ca;
 }
 
 #hero .btn-get-started:hover {
-  background: #3498db;
+  background: #0329ca;
   color: #fff;
 }
 
@@ -481,19 +482,19 @@ section {
   padding-bottom: 30px;
 }
 
-.section-title h2 {
-  font-size: 32px;
-  font-weight: bold;
-  text-transform: uppercase;
-  position: relative;
-  color: #222222;
-}
+    .section-title h2 {
+        font-size: 32px;
+        font-weight: bold;
+        text-transform: uppercase;
+        position: relative;
+        color: #0055A4;
+    }
 
 .section-title h2::before, .section-title h2::after {
   content: '';
   width: 50px;
   height: 2px;
-  background: #3498db;
+  background: #0329ca;
   display: inline-block;
 }
 
@@ -525,7 +526,7 @@ section {
 }
 
 .clients img {
-  width: 50%;
+  /*width: 50%;*/
   filter: grayscale(100);
   transition: all 0.4s ease-in-out;
   display: inline-block;
@@ -576,7 +577,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #3498db;
+  color: #0329ca;
   line-height: 1;
 }
 
@@ -585,7 +586,7 @@ section {
 }
 
 .about .content .btn-learn-more {
-  font-family: "Raleway", sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 1px;
@@ -594,15 +595,15 @@ section {
   border-radius: 50px;
   transition: 0.3s;
   line-height: 1;
-  color: #3498db;
+  color: #0329ca;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #3498db;
+  border: 2px solid #0329ca;
 }
 
 .about .content .btn-learn-more:hover {
-  background: #3498db;
+  background: #0329ca;
   color: #fff;
   text-decoration: none;
 }
@@ -636,7 +637,7 @@ section {
 .counts .content .count-box i {
   display: block;
   font-size: 36px;
-  color: #3498db;
+  color: #0329ca;
   float: left;
 }
 
@@ -652,7 +653,7 @@ section {
 .counts .content .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 50px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Dosis", sans-serif;
   font-size: 14px;
   color: #484848;
 }
@@ -714,7 +715,7 @@ section {
 }
 
 .services .icon-box:hover::before {
-  background: #3498db;
+  background: #0329ca;
   right: 0;
   top: 0;
   width: 100%;
@@ -730,7 +731,7 @@ section {
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  background: #3498db;
+  background: #0329ca;
   transition: all 0.3s ease-in-out;
 }
 
@@ -765,7 +766,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: #3498db;
+  color: #0329ca;
 }
 
 /*--------------------------------------------------------------
@@ -822,7 +823,7 @@ section {
 }
 
 .more-services .card:hover .card-body {
-  background: #3498db;
+  background: #0329ca;
 }
 
 .more-services .card:hover .read-more a, .more-services .card:hover .card-title, .more-services .card:hover .card-title a, .more-services .card:hover .card-text {
@@ -860,7 +861,7 @@ section {
 }
 
 .features .icon-box h3 a:hover {
-  color: #3498db;
+  color: #0329ca;
 }
 
 .features .icon-box:hover {
@@ -943,7 +944,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #3498db !important;
+  background-color: #0329ca !important;
 }
 
 @media (max-width: 767px) {
@@ -990,7 +991,7 @@ section {
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #3498db;
+  background: #0329ca;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1067,7 +1068,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #3498db;
+  color: #0329ca;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -1120,7 +1121,7 @@ section {
 }
 
 .team .member .social a:hover {
-  color: #3498db;
+  color: #0329ca;
 }
 
 .team .member .social i {
@@ -1181,9 +1182,9 @@ section {
 
 .pricing .box h4 {
   font-size: 42px;
-  color: #3498db;
+  color: #0329ca;
   font-weight: 500;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Dosis", sans-serif;
   margin-bottom: 20px;
 }
 
@@ -1213,7 +1214,7 @@ section {
 }
 
 .pricing .box ul i {
-  color: #3498db;
+  color: #0329ca;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1232,26 +1233,26 @@ section {
   display: inline-block;
   padding: 10px 40px 12px 40px;
   border-radius: 50px;
-  border: 2px solid #3498db;
-  color: #3498db;
+  border: 2px solid #ff0000;
+  color: #ff0000;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Raleway", sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 600;
   transition: 0.3s;
 }
 
-.pricing .box .btn-buy:hover {
-  background: #3498db;
-  color: #fff;
-}
+    .pricing .box .btn-buy:hover {
+        background: #ff0000;
+        color: #fff;
+    }
 
 .pricing .recommended {
-  border-color: #3498db;
+  border-color: #0329ca;
 }
 
 .pricing .recommended .btn-buy {
-  background: #3498db;
+  background: #0329ca;
   color: #fff;
 }
 
@@ -1306,7 +1307,7 @@ section {
 .contact .contact-about p {
   font-size: 14px;
   line-height: 24px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Dosis", sans-serif;
   color: #888;
 }
 
@@ -1318,7 +1319,7 @@ section {
   font-size: 18px;
   display: inline-block;
   background: #fff;
-  color: #3498db;
+  color: #0329ca;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1327,11 +1328,11 @@ section {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  border: 1px solid #3498db;
+  border: 1px solid #0329ca;
 }
 
 .contact .social-links a:hover {
-  background: #3498db;
+  background: #0329ca;
   color: #fff;
 }
 
@@ -1341,7 +1342,7 @@ section {
 
 .contact .info i {
   font-size: 32px;
-  color: #3498db;
+  color: #0329ca;
   float: left;
   line-height: 1;
 }
@@ -1409,7 +1410,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #3498db;
+  background: #0329ca;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1527,7 +1528,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #3498db !important;
+  background-color: #0329ca !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -1588,5 +1589,70 @@ section {
 }
 
 #footer .footer-links a:hover {
-  color: #3498db;
+  color: #0329ca;
 }
+/*--------------------------------------------------------------
+# Recent Blog Posts
+--------------------------------------------------------------*/
+.recent-blog-posts .post-box {
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    transition: 0.3s;
+    height: 100%;
+    overflow: hidden;
+    padding: 30px;
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+    .recent-blog-posts .post-box .post-img {
+        overflow: hidden;
+        margin: -30px -30px 15px -30px;
+        position: relative;
+    }
+
+        .recent-blog-posts .post-box .post-img img {
+            transition: 0.5s;
+        }
+
+    .recent-blog-posts .post-box .post-date {
+        font-size: 16px;
+        font-weight: 600;
+        color: rgba(1, 41, 112, 0.6);
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .recent-blog-posts .post-box .post-title {
+        font-size: 18px;
+        color: #012970;
+        font-weight: 700;
+        margin-bottom: 18px;
+        position: relative;
+        transition: 0.3s;
+    }
+
+    .recent-blog-posts .post-box .readmore {
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        line-height: 1;
+        transition: 0.3s;
+    }
+
+        .recent-blog-posts .post-box .readmore i {
+            line-height: 0;
+            margin-left: 4px;
+            font-size: 18px;
+        }
+
+    .recent-blog-posts .post-box:hover .post-title {
+        color: #4154f1;
+    }
+
+    .recent-blog-posts .post-box:hover .post-img img {
+        transform: rotate(6deg) scale(1.2);
+    }
+
+/*--------------------------------------------------------------
